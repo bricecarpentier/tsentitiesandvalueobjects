@@ -46,5 +46,3 @@ Deno.test({
     assertEquals(`${new PersonAge(5)}`, "5");
   },
 });
-
-export {};
