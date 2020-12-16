@@ -1,5 +1,4 @@
 import IComparable from "./IComparable.ts";
-import Person from "./Person.ts";
 
 export class NegativeAgeError extends Error {
   constructor(readonly age: number) {

@@ -1,5 +1,4 @@
 import { assert, assertEquals } from "@std/testing/asserts.ts";
-import Person from "./Person.ts";
 import PersonAge from "./PersonAge.ts";
 import PersonFactory from "./PersonFactory.ts";
 import { PersonStatus } from "./PersonStatus.ts";

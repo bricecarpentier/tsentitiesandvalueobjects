@@ -13,5 +13,3 @@ console.log(olderjane.age);
 console.log(jane.equals(olderjane));
 console.log(marta.name);
 console.log(marta.equals(john));
-
-export {};
