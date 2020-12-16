@@ -26,6 +26,14 @@ Deno.test({
 
 Deno.test({
   name:
+    "PersonAge >> increment >> should returns a PersonAge one year in the future",
+  fn() {
+    assert(new PersonAge(20).increment().equals(new PersonAge(21)));
+  },
+});
+
+Deno.test({
+  name:
     "PersonAge >> equals >> should equal a different PersonAge wrapping the same value",
   fn() {
     assert(new PersonAge(2).equals(new PersonAge(2)));
